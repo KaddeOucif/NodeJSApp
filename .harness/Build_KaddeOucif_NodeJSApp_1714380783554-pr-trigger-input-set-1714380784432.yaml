@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_KaddeOucif_NodeJSApp_1714380783554-pr-trigger-input-set
+  identifier: Build_KaddeOucif_NodeJSApp_1714380783554prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_KaddeOucif_NodeJSApp_1714380783554
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
